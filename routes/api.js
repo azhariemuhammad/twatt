@@ -17,7 +17,4 @@ router.get('/statuses/search/:keyword', twitterController.searchTweet)
 router.post('/statuses/update', twitterController.postTweet )
 
 
-
-
-
 module.exports = router
